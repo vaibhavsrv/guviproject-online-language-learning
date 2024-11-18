@@ -1,0 +1,79 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: #333;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+  background: #0033a0;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #0066cc;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px;
+}
+
+.main-content button {
+  padding: 10px 20px;
+  background: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-content button:hover {
+  background: #218838;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background: #0033a0;
+  color: #fff;
+}
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section Styling for Better Visibility */
+section {
+  padding: 50px 20px;
+  margin: 50px 0;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+/* Animation class for visible sections */
+section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
