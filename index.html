@@ -23,11 +23,26 @@
 
 <!-- Main Content -->
 <main class="main-content">
+  <!-- Login Section -->
+  <section id="login">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="button" onclick="login()">Login</button>
+    </form>
+    <p id="loginMessage"></p>
+  </section>
   <!-- About Us Section -->
   <section id="about">
     <h2>About Us</h2>
     <p>We are dedicated to helping you learn languages efficiently with interactive courses and engaging lessons.</p>
   </section>
+
 
   <!-- Courses Section -->
   <section id="courses">
