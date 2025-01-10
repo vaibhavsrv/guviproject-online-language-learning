@@ -1,0 +1,15 @@
+<web-app>
+  <display-name>Language Learning Web Application</display-name>
+  <servlet>
+    <servlet-name>ProgressServlet</servlet-name>
+    <display-name>ProgressServlet</display-name>
+    <description/>
+    <servlet-class>com.java.servlet.ProgressServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <display-name>UserServlet</display-name>
+    <description/>
+    <servlet-class>com.java.servlet.UserServlet</servlet-class>
+  </servlet>
+</web-app>
