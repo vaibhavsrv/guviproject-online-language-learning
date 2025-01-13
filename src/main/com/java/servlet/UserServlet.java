@@ -1,4 +1,4 @@
-package servlet;
+package com.java.servlet;
 
 import dao.UserDAO;
 import model.User;
@@ -12,7 +12,7 @@ import java.io.IOException;
 
 @WebServlet("/UserServlet")
 public class UserServlet extends HttpServlet {
-    private UserDAO userDAO = new UserDAO();
+    private final UserDAO userDAO = new UserDAO();
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

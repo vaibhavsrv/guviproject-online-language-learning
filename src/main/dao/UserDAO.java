@@ -6,7 +6,8 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 
 public class UserDAO {
-    private Connection connection = DBConnection.getConnection();
+    private DBConnection dbConnection;
+    private final Connection connection = DBConnection.getConnection();
 
     public boolean registerUser(User user) {
         try {

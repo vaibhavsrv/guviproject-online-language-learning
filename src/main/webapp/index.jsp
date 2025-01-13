@@ -3,7 +3,8 @@
 <html>
 <head>
     <title>Language Learning App</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/styles.css">
+
 </head>
 <body>
     <div class="container">

@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>Progress Tracker</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="<%= request.getContextPath() %>/css/styles.css">
 </head>
 <body>
     <div class="container">

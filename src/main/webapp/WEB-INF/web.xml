@@ -1,15 +1,20 @@
 <web-app>
-  <display-name>Language Learning Web Application</display-name>
   <servlet>
     <servlet-name>ProgressServlet</servlet-name>
-    <display-name>ProgressServlet</display-name>
-    <description/>
     <servlet-class>com.java.servlet.ProgressServlet</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>ProgressServlet</servlet-name>
+    <url-pattern>/progress</url-pattern>
+  </servlet-mapping>
+
   <servlet>
     <servlet-name>UserServlet</servlet-name>
-    <display-name>UserServlet</display-name>
-    <description/>
-    <servlet-class>com.java.servlet.UserServlet</servlet-class>
+    <servlet-class>com.java.com.java.servlet.UserServlet</servlet-class>
   </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
 </web-app>
+
