@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ProgressDAO {
+    private dao.DBConnection DBConnection;
     private Connection connection = DBConnection.getConnection();
 
     public boolean updateProgress(int userId, String language, int progressLevel) {

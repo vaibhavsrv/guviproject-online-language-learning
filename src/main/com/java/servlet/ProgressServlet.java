@@ -1,4 +1,4 @@
-package servlet;
+package com.java.servlet;
 
 import dao.ProgressDAO;
 import model.User;

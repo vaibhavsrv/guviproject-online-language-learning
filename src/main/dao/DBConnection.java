@@ -6,7 +6,7 @@ import java.util.Properties;
 import java.io.InputStream;
 
 public class DBConnection {
-    private static Connection connection;
+    private static final Connection connection;
 
     static {
         try {
